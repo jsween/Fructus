@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F25F87D425447C3600114F58 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F87D325447C3600114F58 /* FruitDetailView.swift */; };
+		F25F87D82544804B00114F58 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F87D72544804B00114F58 /* FruitHeaderView.swift */; };
+		F25F87DB2544835100114F58 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F87DA2544835100114F58 /* SourceLinkView.swift */; };
 		F265D18825431A8400815864 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265D18725431A8400815864 /* FruitRowView.swift */; };
 		F2A854892540C8F600FB2545 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A854882540C8F600FB2545 /* FruitCardView.swift */; };
 		F2A8548D2540D00800FB2545 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A8548C2540D00800FB2545 /* StartButtonView.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F25F87D325447C3600114F58 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		F25F87D72544804B00114F58 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		F25F87DA2544835100114F58 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		F265D18725431A8400815864 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		F2A854882540C8F600FB2545 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		F2A8548C2540D00800FB2545 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 				F2EF6D51253FCBC10000B7D0 /* FructusApp.swift */,
 				F2A8548F2540E96000FB2545 /* OnboardingView.swift */,
 				F2A8549D254137FC00FB2545 /* ContentView.swift */,
+				F25F87D325447C3600114F58 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -61,6 +68,8 @@
 				F2A854882540C8F600FB2545 /* FruitCardView.swift */,
 				F2A8548C2540D00800FB2545 /* StartButtonView.swift */,
 				F265D18725431A8400815864 /* FruitRowView.swift */,
+				F25F87D72544804B00114F58 /* FruitHeaderView.swift */,
+				F25F87DA2544835100114F58 /* SourceLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,10 +109,10 @@
 		F2EF6D50253FCBC10000B7D0 /* Fructus */ = {
 			isa = PBXGroup;
 			children = (
+				F2A854852540C8A100FB2545 /* App */,
+				F2A854872540C8C000FB2545 /* View */,
 				F2A8549725412CFC00FB2545 /* Data */,
 				F2A854922540EC9B00FB2545 /* Model */,
-				F2A854872540C8C000FB2545 /* View */,
-				F2A854852540C8A100FB2545 /* App */,
 				F2EF6D55253FCBC20000B7D0 /* Assets.xcassets */,
 				F2EF6D5A253FCBC20000B7D0 /* Info.plist */,
 				F2EF6D57253FCBC20000B7D0 /* Preview Content */,
@@ -189,10 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A8549925412D1C00FB2545 /* FruitData.swift in Sources */,
+				F25F87DB2544835100114F58 /* SourceLinkView.swift in Sources */,
 				F2A854892540C8F600FB2545 /* FruitCardView.swift in Sources */,
 				F265D18825431A8400815864 /* FruitRowView.swift in Sources */,
 				F2A8549E254137FC00FB2545 /* ContentView.swift in Sources */,
+				F25F87D425447C3600114F58 /* FruitDetailView.swift in Sources */,
 				F2A8548D2540D00800FB2545 /* StartButtonView.swift in Sources */,
+				F25F87D82544804B00114F58 /* FruitHeaderView.swift in Sources */,
 				F2A854902540E96000FB2545 /* OnboardingView.swift in Sources */,
 				F2A8549425412B5900FB2545 /* FruitModel.swift in Sources */,
 				F2EF6D52253FCBC10000B7D0 /* FructusApp.swift in Sources */,
